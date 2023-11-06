@@ -1,0 +1,91 @@
+{
+  "project_info": {
+    "project_number": "567726148682",
+    "firebase_url": "https://stabit-cb2da-default-rtdb.firebaseio.com",
+    "project_id": "stabit-cb2da",
+    "storage_bucket": "stabit-cb2da.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:567726148682:android:ee9722544fc8d491dd6ab3",
+        "android_client_info": {
+          "package_name": "com.dashboard.flutter.app.flutter_dashboard"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "567726148682-daa7fa1dgpdj75ei54tvuovjaeabjrcq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCYyRuC742zYrBI1iUZeixQZmaFl8I3KAI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "567726148682-2pnsdbq2kb3nuisdhaabdihf0odl5dj0.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "567726148682-0qe8i4avgesid554siq07ute5a59gcav.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.stabit1.RunnerTests"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:567726148682:android:2895ce38a42418c7dd6ab3",
+        "android_client_info": {
+          "package_name": "com.example.stabit1"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "567726148682-anbo71libgic0rl5mkdudc3r384tm836.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.stabit1",
+            "certificate_hash": "e3792c00ac8f1ad14397ccd87ac4eb925400de95"
+          }
+        },
+        {
+          "client_id": "567726148682-daa7fa1dgpdj75ei54tvuovjaeabjrcq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCYyRuC742zYrBI1iUZeixQZmaFl8I3KAI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "567726148682-2pnsdbq2kb3nuisdhaabdihf0odl5dj0.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "567726148682-0qe8i4avgesid554siq07ute5a59gcav.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.stabit1.RunnerTests"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

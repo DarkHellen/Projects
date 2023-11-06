@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>567726148682-7orj4sgvu8cm8tsi8mutre2uo5lnr2fr.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.567726148682-7orj4sgvu8cm8tsi8mutre2uo5lnr2fr</string>
+	<key>ANDROID_CLIENT_ID</key>
+	<string>567726148682-anbo71libgic0rl5mkdudc3r384tm836.apps.googleusercontent.com</string>
+	<key>API_KEY</key>
+	<string>AIzaSyCTfTF8yXnsF2BH3wkx94303encuELuGto</string>
+	<key>GCM_SENDER_ID</key>
+	<string>567726148682</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.dashboard.flutter.app.flutterDashboard</string>
+	<key>PROJECT_ID</key>
+	<string>stabit-cb2da</string>
+	<key>STORAGE_BUCKET</key>
+	<string>stabit-cb2da.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:567726148682:ios:2806628daef3de38dd6ab3</string>
+	<key>DATABASE_URL</key>
+	<string>https://stabit-cb2da-default-rtdb.firebaseio.com</string>
+</dict>
+</plist>

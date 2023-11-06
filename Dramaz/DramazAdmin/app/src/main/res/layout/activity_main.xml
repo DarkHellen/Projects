@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_of_ui"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".MainActivity" >
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:foregroundGravity="center"
+        android:gravity="center"
+        android:text="Login"
+        android:textColor="@color/login"
+        android:textSize="34sp" />
+    <View
+        android:id="@+id/divider"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:background="?android:attr/listDivider"
+        android:visibility="invisible" />
+
+    <EditText
+        android:id="@+id/Id"
+        android:layout_width="228dp"
+        android:layout_height="68dp"
+        android:ems="10"
+        android:hint="UserName"
+        android:inputType="textPersonName"
+        android:minHeight="48dp"
+        android:textSize="20sp"
+        android:textColor="@color/login"
+        android:textColorHint="@color/login"
+        />
+    <View
+        android:id="@+id/divider2"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:background="?android:attr/listDivider"
+        android:visibility="invisible" />
+
+    <EditText
+        android:id="@+id/Password"
+        android:layout_width="221dp"
+        android:layout_height="70dp"
+        android:ems="10"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:minHeight="48dp"
+        android:textSize="20sp"
+        android:textColor="@color/login"
+        android:textColorHint="@color/login"/>
+
+    <View
+        android:id="@+id/divider3"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:background="?android:attr/listDivider"
+        android:visibility="invisible"
+        /><Button
+    android:id="@+id/LoginB"
+    android:layout_width="221dp"
+    android:layout_height="48dp"
+    android:background="@android:color/transparent"
+    android:text="Login"
+
+    android:textSize="20sp"
+    android:textColor="@color/loginB"
+    />
+
+</LinearLayout>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:background="@android:color/transparent">
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+    <androidx.cardview.widget.CardView
+        android:layout_width="100dp"
+        android:layout_height="match_parent"
+        android:background="#000000"
+        android:backgroundTint="#03A9F4"
+        android:elevation="6dp"
+        android:visibility="visible"
+        app:cardBackgroundColor="@color/black"
+        app:cardCornerRadius="27dp"
+        app:cardUseCompatPadding="true">
+
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/drama1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@android:color/transparent"
+            android:src="@drawable/four"
+            app:civ_circle_background_color="@color/cardview_dark_background"
+            app:civ_border_width="2dp" />
+    </androidx.cardview.widget.CardView>
+    <TextView
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:text="username"
+        android:textColor="@color/white"
+        android:id="@+id/name"
+        android:layout_gravity="center"/>
+
+    </LinearLayout>
+
+    <View
+        android:id="@+id/divider29"
+        android:layout_width="10dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:background="?android:attr/listDivider"
+        android:visibility="invisible" />
+
+</LinearLayout>
+

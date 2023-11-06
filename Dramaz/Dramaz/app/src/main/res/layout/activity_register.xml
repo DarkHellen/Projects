@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:background="@drawable/bg2"
+    android:foregroundGravity="fill_horizontal|center"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".Register">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:foregroundGravity="center"
+        android:gravity="center"
+        android:text="Sign Up"
+        android:textColor="@color/login"
+        android:textSize="34sp" />
+
+    <View
+        android:id="@+id/divider"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:background="?android:attr/listDivider"
+        android:visibility="invisible" />
+
+    <EditText
+        android:id="@+id/Id"
+        android:layout_width="228dp"
+        android:layout_height="68dp"
+        android:ems="10"
+        android:textColorHint="@color/login"
+        android:textColor="@color/login"
+        android:hint="UserName"
+        android:inputType="textPersonName"
+        android:minHeight="48dp"
+        android:textSize="20sp" />
+
+    <View
+        android:id="@+id/divider2"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:background="?android:attr/listDivider"
+        android:visibility="invisible" />
+
+    <EditText
+        android:id="@+id/Password"
+        android:layout_width="221dp"
+        android:layout_height="70dp"
+        android:textColorHint="@color/login"
+        android:ems="10"
+        android:textColor="@color/login"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:minHeight="48dp"
+        android:textSize="20sp" />
+    <View
+        android:id="@+id/divider4"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:background="?android:attr/listDivider"
+        android:visibility="invisible" />
+
+    <EditText
+        android:id="@+id/CPassword"
+        android:layout_width="221dp"
+        android:layout_height="70dp"
+        android:ems="10"
+        android:textColor="@color/login"
+        android:textColorHint="@color/login"
+        android:hint="Confirm Password"
+        android:inputType="textPassword"
+        android:minHeight="48dp"
+        android:textSize="20sp" />
+
+    <View
+        android:id="@+id/divider3"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:background="?android:attr/listDivider"
+        android:visibility="invisible" />
+
+    <Button
+        android:id="@+id/LoginB"
+        android:layout_width="221dp"
+        android:layout_height="48dp"
+        android:background="@android:color/transparent"
+        android:text="Sign Up"
+        android:textColor="@color/login"
+        android:textSize="20sp" />
+</LinearLayout>
